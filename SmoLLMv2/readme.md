@@ -4,7 +4,7 @@
 ```
 #!/bin/bash
 
-cd /media/tish/Diffusions/Gradio/SmoLLMv2
+cd ~/SmoLLMv2
 source venv/bin/activate
 python ./smollm.py
 ```
@@ -20,7 +20,7 @@ After=network.target
 User=tish
 Group=tish
 
-ExecStart=/media/tish/Diffusions/Gradio/SmoLLMv2/start.sh
+ExecStart=~./SmoLLMv2/start.sh
 
 Restart=Always
 RestartSec=10
