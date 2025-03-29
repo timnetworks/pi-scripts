@@ -20,7 +20,7 @@ After=network.target
 User=tish
 Group=tish
 
-ExecStart=~./SmoLLMv2/start.sh
+ExecStart=~/SmoLLMv2/start.sh
 
 Restart=Always
 RestartSec=10
