@@ -36,6 +36,7 @@ WantedBy=default.target
 
 ## the commands
 
+```
 python -m venv venv
 source venv/bin/activate
 pip install gradio
@@ -45,3 +46,4 @@ sudo systemctl daeomon-reload
 sudo systemctl start smollm.service
 sudo systemctl restart smollm.service
 sudo systemctl edit smollm.service
+```
